@@ -9,3 +9,4 @@ Existing Checks
 ---------------
 
 * check\_redis\_save - Checks to ensure that redis has saved to disk recently. Configurable warning and critical thresholds.
+* check\_redis\_slave.sh - Checks to make sure that this redis server either slaves off a connected master, or is a master with connected slaves.
